@@ -145,26 +145,3 @@ match /users/{userId} {
 | `fluttertoast` | Non-blocking error/status toasts |
 
 ---
-
-## ✅ Deliverables Checklist (Week 5)
-
-- [x] Flutter app with Firebase Authentication (Email/Password) and Firestore integration
-- [x] Clean, modular, well-commented source code (`services/`, `screens/`, `models/`, `widgets/`, `theme/`)
-- [x] This `README.md` with setup instructions and documentation
-- [ ] Push to your own GitHub repository (see below)
-
----
-
-## 📤 Publishing to GitHub
-
-```bash
-cd week5_firebase_auth_app
-git init
-git add .
-git commit -m "Week 5: Firebase Authentication and Firestore integration"
-git branch -M main
-git remote add origin https://github.com/<your-username>/<your-repo>.git
-git push -u origin main
-```
-
-> `lib/firebase_options.dart` is listed in `.gitignore` by default since it can contain project-specific identifiers you may not want public. Remove that line from `.gitignore` first if your internship requires committing it, or keep it out and just document the `flutterfire configure` step (as this README does) so reviewers can regenerate it themselves.
